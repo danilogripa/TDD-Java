@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class Driver {
-    private final WebDriver driver;
+    WebDriver driver;
     public Driver(String navegador) {
         switch (navegador){
             case "ie":

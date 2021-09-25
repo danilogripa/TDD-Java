@@ -1,29 +1,25 @@
 package br.com.chronosacademy.automacaoWeb;
 
 import br.com.chronosacademy.core.Driver;
+import br.com.chronosacademy.pages.CursosPage;
+import br.com.chronosacademy.pages.PrincipalPage;
 import org.junit.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class TesteWeb {
 
     WebDriver driver;
     Driver driverWeb;
-    /*
-    @BeforeClass
-    @AfterClass
-    @Before
-    @After
-    @RunWith(Cucumber.class)
-    */
+    PrincipalPage principalPage;
+    CursosPage cursosPage;
 
     @Before
     public void inicializaTeste(){
         driverWeb = new Driver("chrome");
         driver = driverWeb.getDriver();
-
         driverWeb.getDriver().get("https://www.chronosacademy.com.br/");
+        principalPage = new PrincipalPage(driver);
+        cursosPage = new CursosPage(driver);
     }
 
     @After
@@ -33,20 +29,14 @@ public class TesteWeb {
 
     @Test
     public void primeiroTeste(){
-        String xpathTitulo = "//section[2]//h4";
-        WebElement txtTitulo = driver.findElement(By.xpath(xpathTitulo));
-        String Titulo = txtTitulo.getText();
+        String Titulo = principalPage.getTitulo();
         Assert.assertEquals("Porque Tempo É Conhecimento", Titulo);
     }
 
     @Test
     public void segundoTeste(){
-        System.out.println("Teste 2");
+        principalPage.clickBotao();
+        String titulo = cursosPage.getTitulo();
+        Assert.assertEquals("AUTOMAÇÃO SEM COMPLICAÇÃO WEB 2.0", titulo);
     }
-
-    @Test
-    public void terceiroTeste(){
-        System.out.println("Teste 3");
-    }
-
 }
