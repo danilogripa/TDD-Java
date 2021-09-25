@@ -35,7 +35,7 @@ public class TesteWeb {
 
     @Test
     public void segundoTeste(){
-        principalPage.clickBotao();
+        principalPage.clickBtn();
         String titulo = cursosPage.getTitulo();
         Assert.assertEquals("AUTOMAÇÃO SEM COMPLICAÇÃO WEB 2.0", titulo);
     }
