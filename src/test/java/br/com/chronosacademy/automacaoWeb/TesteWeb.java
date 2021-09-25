@@ -2,7 +2,6 @@ package br.com.chronosacademy.automacaoWeb;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
-import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +16,7 @@ public class TesteWeb {
     @After
     @RunWith(Cucumber.class)
     */
+
     @Before
     public void inicializaTeste(){
         WebDriverManager.chromedriver().setup();
