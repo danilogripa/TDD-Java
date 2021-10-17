@@ -23,7 +23,7 @@ Funcionalidade: Login
       | password | <password> |
       | remember | <remember> |
     Quando for realizado o click no botao sign in
-    Entao deve ser possivel logar no sistema
+    Entao deve ser possível logar no sistema
     Exemplos:
       | identificacao       | login   | password | remember |
       | campos obrigatorios | chronos | senha    | false    |

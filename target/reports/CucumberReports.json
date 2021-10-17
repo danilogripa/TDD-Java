@@ -1,0 +1,611 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.525Z",
+        "line": 8,
+        "name": "Fechar a Modal ao click fora da mesma",
+        "description": "",
+        "id": "login;fechar-a-modal-ao-click-fora-da-mesma",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "for realizado um click fora da modal",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "a janela modal deve ser fechada",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.589Z",
+        "line": 12,
+        "name": "Fechar a Modal ao click no icone Fechar",
+        "description": "",
+        "id": "login;fechar-a-modal-ao-click-no-icone-fechar",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "for realizado um click no icone Fechar",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "a janela modal deve ser fechada",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.592Z",
+        "line": 16,
+        "name": "Link Create New account",
+        "description": "",
+        "id": "login;link-create-new-account",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "for realizado um click no Create New Account",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "a pagina Create New Account deve ser exibida",
+            "match": {},
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.596Z",
+        "line": 29,
+        "name": "Realizar login com campos obrigatorios",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  "chronos"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "senha"
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "for realizado o click no botao sign in",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "deve ser possível logar no sistema",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.600Z",
+        "line": 30,
+        "name": "Realizar login com todos os campos",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 995700,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  "chronos"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "senha"
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "for realizado o click no botao sign in",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "deve ser possível logar no sistema",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.603Z",
+        "line": 41,
+        "name": "Realizar login com usuario invalida",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  "invalida"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "senha"
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "for realizado o click no botao sign in",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "o sistema deve exibir uma msg de erro",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.606Z",
+        "line": 42,
+        "name": "Realizar login com senha invalida",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  "chronos"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "invalida"
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "for realizado o click no botao sign in",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "o sistema deve exibir uma msg de erro",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.609Z",
+        "line": 54,
+        "name": "Realizar login com usuario em branco",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "senha"
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "for realizado o click no botao sign in",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "o botao sign in deve permanecer desabilitado",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T09:40:01.611Z",
+        "line": 55,
+        "name": "Realizar login com senha em branco",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  "chronos"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "for realizado o click no botao sign in",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "o botao sign in deve permanecer desabilitado",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
