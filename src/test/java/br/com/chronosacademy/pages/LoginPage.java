@@ -48,4 +48,11 @@ public class LoginPage {
         return loginMap.btnSignIn.isEnabled();
     }
 
+    public void visibilityOfBtnFechar(){
+        Driver.visibilityOf(loginMap.btnFechar);
+    }
+    public void invisibilityOfBtnFechar(){
+        Driver.invisibilityOf(loginMap.btnFechar);
+    }
+
 }
