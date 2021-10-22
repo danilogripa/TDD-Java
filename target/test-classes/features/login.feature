@@ -4,7 +4,7 @@ Funcionalidade: Login
   Contexto:
     Dado que a modal esteja sendo exibida
 
-
+  @fecharModal
   Cenário: Fechar a Modal ao click fora da mesma
     Quando for realizado um click fora da modal
     Entao a janela modal deve ser fechada
@@ -23,7 +23,7 @@ Funcionalidade: Login
       | password | <password> |
       | remember | <remember> |
     Quando for realizado o click no botao sign in
-    Entao deve ser possível logar no sistema
+    Entao deve ser possivel logar no sistema
     Exemplos:
       | identificacao       | login   | password | remember |
       | campos obrigatorios | chronos | senha    | false    |

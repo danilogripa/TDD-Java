@@ -13,10 +13,12 @@ public class LoginPage {
     }
 
     public void clickBtnLogin(){
+        Driver.visibilityOf(loginMap.btnLogin);
         loginMap.btnLogin.click();
     }
 
     public void clickBtnFechar(){
+        Driver.visibilityOf(loginMap.btnFechar);
         loginMap.btnFechar.click();
     }
 
