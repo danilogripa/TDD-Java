@@ -1,6 +1,7 @@
 package br.com.chronosacademy.steps;
 
 import br.com.chronosacademy.core.Driver;
+import br.com.chronosacademy.enums.Browser;
 import br.com.chronosacademy.pages.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -18,7 +19,7 @@ public class LoginSteps {
 
     @Before
     public void iniciaNavegador(){
-        new Driver("chrome");
+        new Driver(Browser.CHROME);
     }
 
     @After
@@ -32,10 +33,12 @@ public class LoginSteps {
         loginPage = new LoginPage();
         loginPage.clickBtnLogin();
     }
+
     @Quando("for realizado um click fora da modal")
     public void forRealizadoUmClickForaDaModal() {
         loginPage.clickDivFechaModal();
     }
+
     @Entao("a janela modal deve ser fechada")
     public void aJanelaModalDeveSerFechada() throws Exception {
         try {
