@@ -28,13 +28,13 @@ public class TesteWeb {
         driver.quit();
     }
 
-    @Test
+    //@Test
     public void primeiroTeste(){
         String Titulo = principalPage.getTitulo();
         Assert.assertEquals("Porque Tempo É Conhecimento", Titulo);
     }
 
-    @Test
+    //@Test
     public void segundoTeste(){
         principalPage.clickBtn();
         String titulo = cursosPage.getTitulo();

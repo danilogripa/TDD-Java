@@ -15,6 +15,7 @@ import org.junit.Assert;
 import java.util.Map;
 
 public class LoginSteps {
+    String username;
 
     LoginPage loginPage;
 
@@ -69,7 +70,7 @@ public class LoginSteps {
 
     @Quando("os campos de login sejam preenchidos da seguinte forma")
     public void osCamposDeLoginSejamPreenchidosDaSeguinteForma(Map<String, String> map) {
-        String username = map.get("login");
+        username = map.get("login");
         String password = map.get("password");
         boolean remember = Boolean.parseBoolean(map.get("remember"));
 
@@ -85,14 +86,13 @@ public class LoginSteps {
 
     @Entao("deve ser possivel logar no sistema")
     public void deveSerPossivelLogarNoSistema() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Assert.assertEquals("danilo", username);
+
     }
 
     @Entao("o sistema deve exibir uma msg de erro")
     public void oSistemaDeveExibirUmaMsgDeErro() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Assert.assertEquals("Incorrect user name or password.", loginPage.getErroLogin());
     }
 
     @Entao("o botao sign in deve permanecer desabilitado")

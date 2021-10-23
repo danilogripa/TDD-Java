@@ -20,7 +20,7 @@ Funcionalidade: Login
     Quando for realizado um click no Create New Account
     Então a pagina Create New Account deve ser exibida
 
-
+  @loginComSucesso @smoke
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login sejam preenchidos da seguinte forma
       | login    | <login>    |
@@ -30,9 +30,10 @@ Funcionalidade: Login
     Entao deve ser possivel logar no sistema
     Exemplos:
       | identificacao       | login   | password | remember |
-      | campos obrigatorios | chronos | senha    | false    |
-      | todos os campos     | chronos | senha    | true     |
+      | campos obrigatorios | danilo  | pass123A | false    |
+      | todos os campos     | danilo  | pass123A | true     |
 
+  @loginError
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login sejam preenchidos da seguinte forma
       | login    | <login>    |
@@ -43,7 +44,7 @@ Funcionalidade: Login
     Exemplos:
       | identificacao    | login    | password | remember |
       | usuario invalida | invalida | senha    | false    |
-      | senha invalida   | chronos  | invalida | true     |
+      | senha invalida   | cg       | invalida | true     |
 
 
   @dadosEmBranco @smoke

@@ -21,6 +21,12 @@ public class LoginMap {
     @FindBy(linkText = "CREATE NEW ACCOUNT") //@FindBy(xpath = "//*[text() = 'CREATE NEW ACCOUNT']")
     public WebElement linkCreateAccount;
 
+    /* Additionals  */
     @FindBy(css = ".loader")
     public WebElement divLoader;
+    @FindBy(css = ".containMiniTitle")
+    public WebElement textLogado;
+
+    @FindBy(xpath = "//label[@id='signInResultMessage']")
+    public WebElement textErroLogin;
 }
