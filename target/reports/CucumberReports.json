@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1636165400,
+              "duration": 3807811800,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-22T20:07:42.569Z",
+        "start_timestamp": "2021-10-23T14:00:05.788Z",
         "before": [
           {
             "result": {
-              "duration": 4210924300,
+              "duration": 2115662700,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 8,
-        "name": "Fechar a Modal ao click fora da mesma",
+        "line": 58,
+        "name": "Realizar login com usuario em branco",
         "description": "",
-        "id": "login;fechar-a-modal-ao-click-fora-da-mesma",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;2",
         "after": [
           {
             "result": {
-              "duration": 659395400,
+              "duration": 648331400,
               "status": "passed"
             },
             "match": {
@@ -52,36 +52,183 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Cenário",
+        "keyword": "Esquema do Cenario",
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027divFechaModal\u0027]\"}\n  (Session info: chrome\u003d95.0.4638.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DANILO-MONSTROB\u0027, ip: \u002710.0.0.147\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\\Users\\Avell\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 06f5493f2b901ed159e5d5d260cbe8c6\n*** Element info: {Using\u003dname, value\u003ddivFechaModal}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat br.com.chronosacademy.pages.LoginPage.clickDivFechaModal(LoginPage.java:26)\r\n\tat br.com.chronosacademy.steps.LoginSteps.forRealizadoUmClickForaDaModal(LoginSteps.java:38)\r\n\tat ✽.for realizado um click fora da modal(file:///C:/Users/Avell/IdeaProjects/automacaoSemComplicacaoWeb2.0T2/src/test/resources/features/login.feature:9)\r\n",
-              "duration": 34837000,
-              "status": "failed"
+              "duration": 81766900,
+              "status": "passed"
             },
-            "line": 9,
-            "name": "for realizado um click fora da modal",
+            "line": 50,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
             "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoUmClickForaDaModal()"
+              "location": "br.com.chronosacademy.steps.LoginSteps.osCamposDeLoginSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "senha"
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 57844900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "for realizado o click no botao sign in",
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoOClickNoBotaoSignIn()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 33183500,
+              "status": "passed"
             },
-            "line": 10,
-            "name": "a janela modal deve ser fechada",
+            "line": 55,
+            "name": "o botao sign in deve permanecer desabilitado",
             "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.aJanelaModalDeveSerFechada()"
+              "location": "br.com.chronosacademy.steps.LoginSteps.oBotaoSignInDevePermanecerDesabilitado()"
             },
             "keyword": "Entao "
           }
         ],
         "tags": [
           {
-            "name": "@fecharModal"
+            "name": "@dadosEmBranco"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3822137900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que a modal esteja sendo exibida",
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-23T14:00:12.599Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1556165300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Realizar login com senha em branco",
+        "description": "",
+        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 636759900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146520600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "os campos de login sejam preenchidos da seguinte forma",
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.osCamposDeLoginSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "login",
+                  "chronos"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "remember",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 45109700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "for realizado o click no botao sign in",
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoOClickNoBotaoSignIn()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 22411900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "o botao sign in deve permanecer desabilitado",
+            "match": {
+              "location": "br.com.chronosacademy.steps.LoginSteps.oBotaoSignInDevePermanecerDesabilitado()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dadosEmBranco"
           }
         ]
       }

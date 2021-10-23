@@ -33,10 +33,6 @@ public class Driver {
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
-            /*default:
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-                break;*/
         }
         wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
@@ -52,6 +48,10 @@ public class Driver {
 
     public static void invisibilityOf(WebElement element) {
         wait.until(ExpectedConditions.invisibilityOf(element));
+    }
+
+    public static void attributeChange(WebElement element, String attribute, String value){
+        wait.until(ExpectedConditions.attributeContains(element, attribute, value));
     }
 
 }

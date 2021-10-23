@@ -14,12 +14,13 @@ public class LoginMap {
     public WebElement inpUserName;
     @FindBy(css = "*[name='password']")
     public WebElement inpPassword;
-    //@FindBy(xpath = "//*[text() = 'REMEMBER ME']/../input")
-    @FindBy(css = "*[name='remember_me']")
+    @FindBy(css = "*[name='remember_me']") //@FindBy(xpath = "//*[text() = 'REMEMBER ME']/../input")
     public WebElement inpRemember;
-    //@FindBy(xpath = "//*[@id ='sign_in_btnundefined']")
-    @FindBy(css = "#sign_in_btnundefined")
+    @FindBy(id = "sign_in_btnundefined")// @FindBy(css = "#sign_in_btnundefined") //@FindBy(xpath = "//*[@id ='sign_in_btnundefined']")
     public WebElement btnSignIn;
-    @FindBy(linkText = "CREATE NEW ACCOUNT") // @FindBy(xpath = "//*[text() = 'CREATE NEW ACCOUNT']")
+    @FindBy(linkText = "CREATE NEW ACCOUNT") //@FindBy(xpath = "//*[text() = 'CREATE NEW ACCOUNT']")
     public WebElement linkCreateAccount;
+
+    @FindBy(css = ".loader")
+    public WebElement divLoader;
 }

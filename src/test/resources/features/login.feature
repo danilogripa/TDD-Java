@@ -1,4 +1,5 @@
 #language:pt
+  @login
 Funcionalidade: Login
 
   Contexto:
@@ -9,13 +10,16 @@ Funcionalidade: Login
     Quando for realizado um click fora da modal
     Entao a janela modal deve ser fechada
 
+  @fecharModalIcone
   Cenário: Fechar a Modal ao click no icone Fechar
     Quando for realizado um click no icone Fechar
     Entao a janela modal deve ser fechada
 
+  @createNewAccount
   Cenário: Link Create New account
     Quando for realizado um click no Create New Account
     Então a pagina Create New Account deve ser exibida
+
 
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login sejam preenchidos da seguinte forma
@@ -42,6 +46,7 @@ Funcionalidade: Login
       | senha invalida   | chronos  | invalida | true     |
 
 
+  @dadosEmBranco @smoke
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login sejam preenchidos da seguinte forma
       | login    | <login>    |
