@@ -27,6 +27,6 @@ public class LoginMap {
     @FindBy(css = ".containMiniTitle")
     public WebElement textLogado;
 
-    @FindBy(xpath = "//label[@id='signInResultMessage']")
+    @FindBy(xpath = "//label[contains(text(), 'Incorrect')]") //@FindBy(xpath = "//label[@id='signInResultMessage']")
     public WebElement textErroLogin;
 }

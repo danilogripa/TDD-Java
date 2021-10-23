@@ -67,6 +67,7 @@ public class LoginPage {
 
     public String getErroLogin(){
         Driver.visibilityOf(loginMap.textErroLogin);
+        //Driver.attributeChange(loginMap.textErroLogin, "text", "Incorrect user name or password.");
         return loginMap.textErroLogin.getText();
     }
 }
