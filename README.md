@@ -10,4 +10,4 @@ Technology Profile:<br/>
   METHODS: Black-Box<br/>
   DESIGN PATTERN: Page Object + Page Factory<br/>
   REPORTS: Cucumber Reports <br/>
-  CI/CD: Jenkins<br/>
+  CI/CD: Jenkins
