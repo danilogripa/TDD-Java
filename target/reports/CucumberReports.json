@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3765939100,
+              "duration": 4987953100,
               "status": "passed"
             },
             "line": 6,
@@ -24,98 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-23T16:28:23.086Z",
+        "start_timestamp": "2021-10-28T14:14:53.837Z",
         "before": [
           {
             "result": {
-              "duration": 1915059400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "Fechar a Modal ao click fora da mesma",
-        "description": "",
-        "id": "login;fechar-a-modal-ao-click-fora-da-mesma",
-        "after": [
-          {
-            "result": {
-              "duration": 644615300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Cenário",
-        "steps": [
-          {
-            "result": {
-              "duration": 55848700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "for realizado um click fora da modal",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoUmClickForaDaModal()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.Exception: A janela modal não foi fechada!\r\n\tat br.com.chronosacademy.steps.LoginSteps.aJanelaModalDeveSerFechada(LoginSteps.java:51)\r\n\tat ✽.a janela modal deve ser fechada(file:///C:/Users/Avell/IdeaProjects/automacaoSemComplicacaoWeb2.0T2/src/test/resources/features/login.feature:11)\r\n",
-              "duration": 10427273100,
-              "status": "failed"
-            },
-            "line": 11,
-            "name": "a janela modal deve ser fechada",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.aJanelaModalDeveSerFechada()"
-            },
-            "keyword": "Entao "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@fecharModal"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 4957059600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-23T16:28:39.955Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1429728100,
+              "duration": 9650836900,
               "status": "passed"
             },
             "match": {
@@ -130,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 647366700,
+              "duration": 649950800,
               "status": "passed"
             },
             "match": {
@@ -143,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 79787200,
+              "duration": 75797900,
               "status": "passed"
             },
             "line": 15,
@@ -155,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 574261700,
+              "duration": 572698200,
               "status": "passed"
             },
             "line": 16,
@@ -187,7 +100,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4887178200,
+              "duration": 4663731100,
               "status": "passed"
             },
             "line": 6,
@@ -200,11 +113,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-23T16:28:47.646Z",
+        "start_timestamp": "2021-10-28T14:15:09.839Z",
         "before": [
           {
             "result": {
-              "duration": 1447758400,
+              "duration": 8169083100,
               "status": "passed"
             },
             "match": {
@@ -219,7 +132,7 @@
         "after": [
           {
             "result": {
-              "duration": 637279600,
+              "duration": 659876800,
               "status": "passed"
             },
             "match": {
@@ -232,7 +145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2862569400,
+              "duration": 780910300,
               "status": "passed"
             },
             "line": 20,
@@ -244,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 60352600,
+              "duration": 71807600,
               "status": "passed"
             },
             "line": 21,
@@ -276,7 +189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3761294100,
+              "duration": 4661850400,
               "status": "passed"
             },
             "line": 6,
@@ -289,11 +202,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-23T16:28:57.545Z",
+        "start_timestamp": "2021-10-28T14:15:24.188Z",
         "before": [
           {
             "result": {
-              "duration": 1484552600,
+              "duration": 7340705700,
               "status": "passed"
             },
             "match": {
@@ -308,7 +221,7 @@
         "after": [
           {
             "result": {
-              "duration": 638329900,
+              "duration": 659962700,
               "status": "passed"
             },
             "match": {
@@ -321,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 146597300,
+              "duration": 142114200,
               "status": "passed"
             },
             "line": 25,
@@ -353,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 69840600,
+              "duration": 57810400,
               "status": "passed"
             },
             "line": 29,
@@ -396,7 +309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4755784200,
+              "duration": 5053385100,
               "status": "passed"
             },
             "line": 6,
@@ -409,11 +322,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-23T16:29:03.649Z",
+        "start_timestamp": "2021-10-28T14:15:37.052Z",
         "before": [
           {
             "result": {
-              "duration": 1473452300,
+              "duration": 1461617800,
               "status": "passed"
             },
             "match": {
@@ -428,7 +341,7 @@
         "after": [
           {
             "result": {
-              "duration": 628860100,
+              "duration": 630706800,
               "status": "passed"
             },
             "match": {
@@ -441,7 +354,7 @@
         "steps": [
           {
             "result": {
-              "duration": 198024900,
+              "duration": 195476600,
               "status": "passed"
             },
             "line": 25,
@@ -473,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 55881400,
+              "duration": 55851900,
               "status": "passed"
             },
             "line": 29,
@@ -516,7 +429,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3774636500,
+              "duration": 4845314700,
               "status": "passed"
             },
             "line": 6,
@@ -529,247 +442,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-23T16:29:10.764Z",
+        "start_timestamp": "2021-10-28T14:15:44.452Z",
         "before": [
           {
             "result": {
-              "duration": 2108233400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 46,
-        "name": "Realizar login com usuario invalida",
-        "description": "",
-        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 641419100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Esquema do Cenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 129655000,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "os campos de login sejam preenchidos da seguinte forma",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.osCamposDeLoginSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "login",
-                  "invalida"
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  "senha"
-                ]
-              },
-              {
-                "cells": [
-                  "remember",
-                  "false"
-                ]
-              }
-            ],
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 69802900,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "for realizado o click no botao sign in",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoOClickNoBotaoSignIn()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 585409600,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "o sistema deve exibir uma msg de erro",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.oSistemaDeveExibirUmaMsgDeErro()"
-            },
-            "keyword": "Entao "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@loginError"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 3772031300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-23T16:29:18.074Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1447460900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 47,
-        "name": "Realizar login com senha invalida",
-        "description": "",
-        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 651897100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Esquema do Cenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 192486700,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "os campos de login sejam preenchidos da seguinte forma",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.osCamposDeLoginSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "login",
-                  "cg"
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  "invalida"
-                ]
-              },
-              {
-                "cells": [
-                  "remember",
-                  "true"
-                ]
-              }
-            ],
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 53854400,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "for realizado o click no botao sign in",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoOClickNoBotaoSignIn()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 582921800,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "o sistema deve exibir uma msg de erro",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.oSistemaDeveExibirUmaMsgDeErro()"
-            },
-            "keyword": "Entao "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@loginError"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 3782267400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-23T16:29:24.778Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1370166700,
+              "duration": 1448974700,
               "status": "passed"
             },
             "match": {
@@ -784,7 +461,7 @@
         "after": [
           {
             "result": {
-              "duration": 638044800,
+              "duration": 1134530200,
               "status": "passed"
             },
             "match": {
@@ -797,7 +474,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78788300,
+              "duration": 78790200,
               "status": "passed"
             },
             "line": 52,
@@ -829,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 58843600,
+              "duration": 47914400,
               "status": "passed"
             },
             "line": 56,
@@ -841,7 +518,7 @@
           },
           {
             "result": {
-              "duration": 17951500,
+              "duration": 18949300,
               "status": "passed"
             },
             "line": 57,
@@ -873,7 +550,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3761521800,
+              "duration": 5371729900,
               "status": "passed"
             },
             "line": 6,
@@ -886,11 +563,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-23T16:29:30.727Z",
+        "start_timestamp": "2021-10-28T14:15:52.029Z",
         "before": [
           {
             "result": {
-              "duration": 1429172700,
+              "duration": 1419044400,
               "status": "passed"
             },
             "match": {
@@ -905,7 +582,7 @@
         "after": [
           {
             "result": {
-              "duration": 643240400,
+              "duration": 658735600,
               "status": "passed"
             },
             "match": {
@@ -918,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 130650900,
+              "duration": 115559300,
               "status": "passed"
             },
             "line": 52,
@@ -950,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 51893500,
+              "duration": 48870300,
               "status": "passed"
             },
             "line": 56,
@@ -962,7 +639,7 @@
           },
           {
             "result": {
-              "duration": 20912500,
+              "duration": 19946000,
               "status": "passed"
             },
             "line": 57,
