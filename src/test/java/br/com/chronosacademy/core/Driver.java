@@ -3,11 +3,9 @@ package br.com.chronosacademy.core;
 import br.com.chronosacademy.enums.Browser;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -42,8 +40,7 @@ public class Driver {
     public Driver(Browser navegador) {
         switch (navegador) {
             case CHROME:
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                startChrome();
                 break;
             case IE:
                 WebDriverManager.iedriver().setup();
@@ -60,6 +57,18 @@ public class Driver {
         }
         wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
+    }
+
+    private void startChrome() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setAcceptInsecureCerts(true);
+
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless"));
+
+        chromeOptions.setHeadless(headless);
+        driver = new ChromeDriver(chromeOptions);
+        driver.manage().window().setSize(new Dimension(1280, 720));
     }
 
     public static WebDriver getDriver() {
@@ -88,7 +97,7 @@ public class Driver {
     public static void printScreen(String passo) throws IOException {
         numPrint++;
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String path = diretorio.getPath()+"/"+passo+".png";
+        String path = diretorio.getPath()+"/"+numPrint+" - "+passo+".png";
         FileUtils.copyFile(file, new File(path));
     }
 }

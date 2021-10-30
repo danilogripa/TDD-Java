@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4987953100,
+              "duration": 6187394100,
               "status": "passed"
             },
             "line": 6,
@@ -24,193 +24,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-28T14:14:53.837Z",
+        "start_timestamp": "2021-10-30T15:01:45.907Z",
         "before": [
           {
             "result": {
-              "duration": 9650836900,
+              "duration": 1758786700,
               "status": "passed"
             },
             "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Fechar a Modal ao click no icone Fechar",
-        "description": "",
-        "id": "login;fechar-a-modal-ao-click-no-icone-fechar",
-        "after": [
-          {
-            "result": {
-              "duration": 649950800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Cenário",
-        "steps": [
-          {
-            "result": {
-              "duration": 75797900,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "for realizado um click no icone Fechar",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoUmClickNoIconeFechar()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 572698200,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "a janela modal deve ser fechada",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.aJanelaModalDeveSerFechada()"
-            },
-            "keyword": "Entao "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@fecharModalIcone"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 4663731100,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-28T14:15:09.839Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8169083100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "Link Create New account",
-        "description": "",
-        "id": "login;link-create-new-account",
-        "after": [
-          {
-            "result": {
-              "duration": 659876800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Cenário",
-        "steps": [
-          {
-            "result": {
-              "duration": 780910300,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "for realizado um click no Create New Account",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoUmClickNoCreateNewAccount()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 71807600,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "a pagina Create New Account deve ser exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.aPaginaCreateNewAccountDeveSerExibida()"
-            },
-            "keyword": "Então "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@createNewAccount"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 4661850400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-28T14:15:24.188Z",
-        "before": [
-          {
-            "result": {
-              "duration": 7340705700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
+              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -221,11 +43,11 @@
         "after": [
           {
             "result": {
-              "duration": 659962700,
+              "duration": 574400000,
               "status": "passed"
             },
             "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
+              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -234,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 142114200,
+              "duration": 255171500,
               "status": "passed"
             },
             "line": 25,
@@ -266,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 57810400,
+              "duration": 63648300,
               "status": "passed"
             },
             "line": 29,
@@ -278,6 +100,7 @@
           },
           {
             "result": {
+              "duration": 102960300,
               "status": "passed"
             },
             "line": 30,
@@ -309,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5053385100,
+              "duration": 6200309500,
               "status": "passed"
             },
             "line": 6,
@@ -322,15 +145,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-28T14:15:37.052Z",
+        "start_timestamp": "2021-10-30T15:01:54.905Z",
         "before": [
           {
             "result": {
-              "duration": 1461617800,
+              "duration": 1257468600,
               "status": "passed"
             },
             "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
+              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -341,11 +164,11 @@
         "after": [
           {
             "result": {
-              "duration": 630706800,
+              "duration": 573792900,
               "status": "passed"
             },
             "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
+              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -354,7 +177,7 @@
         "steps": [
           {
             "result": {
-              "duration": 195476600,
+              "duration": 260800100,
               "status": "passed"
             },
             "line": 25,
@@ -386,7 +209,7 @@
           },
           {
             "result": {
-              "duration": 55851900,
+              "duration": 50407000,
               "status": "passed"
             },
             "line": 29,
@@ -398,6 +221,7 @@
           },
           {
             "result": {
+              "duration": 79467400,
               "status": "passed"
             },
             "line": 30,
@@ -414,248 +238,6 @@
           },
           {
             "name": "@loginComSucesso"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 4845314700,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-28T14:15:44.452Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1448974700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 60,
-        "name": "Realizar login com usuario em branco",
-        "description": "",
-        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1134530200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Esquema do Cenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 78790200,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "os campos de login sejam preenchidos da seguinte forma",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.osCamposDeLoginSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "login",
-                  ""
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  "senha"
-                ]
-              },
-              {
-                "cells": [
-                  "remember",
-                  "false"
-                ]
-              }
-            ],
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 47914400,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "for realizado o click no botao sign in",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoOClickNoBotaoSignIn()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 18949300,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "o botao sign in deve permanecer desabilitado",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.oBotaoSignInDevePermanecerDesabilitado()"
-            },
-            "keyword": "Entao "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@dadosEmBranco"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Contexto",
-        "steps": [
-          {
-            "result": {
-              "duration": 5371729900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "que a modal esteja sendo exibida",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.queAModalEstejaSendoExibida()"
-            },
-            "keyword": "Dado "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-28T14:15:52.029Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1419044400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.iniciaNavegador()"
-            }
-          }
-        ],
-        "line": 61,
-        "name": "Realizar login com senha em branco",
-        "description": "",
-        "id": "login;realizar-login-com-\u003cidentificacao\u003e;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 658735600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.fechaNavegador()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Esquema do Cenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 115559300,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "os campos de login sejam preenchidos da seguinte forma",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.osCamposDeLoginSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "login",
-                  "chronos"
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  ""
-                ]
-              },
-              {
-                "cells": [
-                  "remember",
-                  "true"
-                ]
-              }
-            ],
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 48870300,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "for realizado o click no botao sign in",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.forRealizadoOClickNoBotaoSignIn()"
-            },
-            "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 19946000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "o botao sign in deve permanecer desabilitado",
-            "match": {
-              "location": "br.com.chronosacademy.steps.LoginSteps.oBotaoSignInDevePermanecerDesabilitado()"
-            },
-            "keyword": "Entao "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@dadosEmBranco"
           },
           {
             "name": "@smoke"
