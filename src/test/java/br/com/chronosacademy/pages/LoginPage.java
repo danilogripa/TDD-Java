@@ -43,6 +43,7 @@ public class LoginPage {
     }
 
     public void clickBtnSignIn(){
+        aguardarLoader();
         loginMap.btnSignIn.click();
     }
 

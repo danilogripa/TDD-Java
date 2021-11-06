@@ -20,4 +20,6 @@ public class NewAccountMap {
     public WebElement inpIagree;
     @FindBy(css = "#register_btnundefined")
     public WebElement btnRegister;
+
+
 }
