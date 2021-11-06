@@ -26,6 +26,7 @@ public class EditAccountPage {
     }
 
     public void clickBtnSave(){
+        Driver.aguardaOptions(new Select(editAccountMap.slcCountry));
         editAccountMap.btnSave.click();
     }
 }
