@@ -92,7 +92,7 @@ public class LoginSteps {
 
     @Entao("deve ser possivel logar no sistema")
     public void deveSerPossivelLogarNoSistema() throws IOException {
-        Assert.assertEquals("danilo", username);
+        Assert.assertEquals(username, loginPage.getUsuarioLogado());
         Driver.printScreen("logado no sistema");
 
     }
@@ -106,5 +106,13 @@ public class LoginSteps {
     public void oBotaoSignInDevePermanecerDesabilitado() {
         boolean enabled = loginPage.isBtnSignIn();
         Assert.assertFalse(enabled);
+    }
+
+    @Dado("que esteja logado no sistema com")
+    public void queEstejaLogadoNoSistemaCom(Map<String, String> map) throws IOException {
+        queAModalEstejaSendoExibida();
+        osCamposDeLoginSejamPreenchidosDaSeguinteForma(map);
+        forRealizadoOClickNoBotaoSignIn();
+        deveSerPossivelLogarNoSistema();
     }
 }
